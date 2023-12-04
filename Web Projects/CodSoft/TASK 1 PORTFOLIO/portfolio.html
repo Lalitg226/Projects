@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="port_style.css">
+        <script src="https://kit.fontawesome.com/fba535d5bd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <img src="profile.jpg" alt="Profile_image">
+            <div class="container">
+                <nav>
+                    <img src="logo.png" alt="logo_image" class="logo">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header_text">
+                    <p>Programmer,Developer</p>
+                    <h1>Hi, i'm <span>Lalit Agarwal</span><br> from Uttarakhand.</h1>
+                </div>
+            </div>
+        </div>
+
+
+<!-- ###################### About ###################### -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="profile2.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="about-p">I am passionate Computer Science student. <br> I have gained knowledge in cpp,java, web-dev, and ML also. <br> My hobbies are playing chess, exploring new topics in CS field, doing workout at gym, listening Bhajan and Music and reading Magazines.
+                        <br> I am hard-working, punctual person and i want to work in a tech-team to plish my skills.
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Language</span><br>CPP, Java, Python</li>
+                                <li><span>Web Development</span><br>HTML, CSS, Javascript, PHP, React</li>
+                                <li><span>Backend</span><br>Mysql, Workbench</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>Programming</span> - 3 Year</li>
+                                <li><span>Web Development</span> - 1 Year</li>
+                                <li><span>Backend Development</span> - 1 Year</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>High-School</span> - (2017-2018)</li>
+                                <li><span>Intermediate-School</span> - (2019-2020)</li>
+                                <li><span>Btech CSE</span> - (2020-Current)</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- ###################### Services ###################### -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Software Programming</h2>
+                            <p>I have knowledge about cpp, java, c. Also, i have worked on 1 major project using Java.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-html5"></i>
+                            <h2>Web Design</h2>
+                            <p>In Web Design, i learnt about HTML, CSS, JS and many more.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-python"></i>
+                            <h2>Machine Learning</h2>
+                            <p>In machine learning, i have worked with Deep Learning(DL) and Natural Language Processing(NLP). To know more about my ML projects you can visit my github profile.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- ###################### Portfolio ###################### -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="work1.png" alt="">
+                        <div class="layer">
+                            <h3>Fashio Recommender System</h3>
+                            <p>
+                                It uses ML technique and a large-dataset to train the model. Using this project, you can recommend the fashion as per trained data.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work2.png" alt="">
+                        <div class="layer">
+                            <h3>Word Prediction</h3>
+                            <p>
+                                It uses ML technique and a large-dataset to train the model. Using this project, you can recommend the fashion as per trained data.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work3.jpeg" alt="">
+                        <div class="layer">
+                            <h3>Ecommerce-Website</h3>
+                            <p>
+                                It uses ML technique and a large-dataset to train the model. Using this project, you can recommend the fashion as per trained data.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+<!-- ###################### contact ###################### -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me:</h1>
+                        <p><i class="fa-solid fa-envelope"></i> Lalitagarwal978@gmail.com</p>
+                        <p><i class="fa-solid fa-mobile-screen"></i> +91123456789</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/lalit-a-8122131bb/" class="linke"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://leetcode.com/lalitagarwal978/"><i class="fa-solid fa-terminal"></i></a>
+                            <a href="https://github.com/Lalitg226"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        </div>
+                        <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet"  action="">
+                            <input type="text" name="Name" placeholder="Enter Your Name" required><br>
+                            <input type="email" name="email" placeholder="Enter Your Email" required><br>
+                            <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea><br>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i>. Having genuine credentials.</p>
+            </div>
+        </div>
+
+    </body>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tl of tablinks){
+                tl.classList.remove("active-link");
+            }
+
+            for(tc of tabcontents){
+                tc.classList.remove("active-tab");
+            }
+            
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxiXtTnBJCji1cUM0BI5VCaXc-58shqaMAXrtI6N8uijNKbxzj0buhogd_egcj1F3Y/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</html>

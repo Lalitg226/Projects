@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landing_page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- For Jquery 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script> -->
+
+    <!-- For Carousel -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/fba535d5bd.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: azure;">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="logo" id="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p style="font-size: 40px; font-weight: 1000;">Hi, here you can Purchase</p>
+                <span id="element" style="font-size: 28px; font-weight: 1000; color: crimson;"></span>
+            </div>
+            <div class="col">
+                <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel"> <!-- carousel-fade -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#mycarousel" data-slide-to="1"></li>
+                      <li data-target="#mycarousel" data-slide-to="2"></li>
+                      <li data-target="#mycarousel" data-slide-to="3"></li>
+                      <li data-target="#mycarousel" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-interval="1000">
+                        <img src="Assets/laptop.png" alt="laptop" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Desktop</h5>
+                          <p>Complete setup is also available.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-interval="1000">
+                        <img src="Assets/keyboard.jpg" alt="keyboard" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item" data-interval="1000">
+                        <img src="Assets/mouse.jpg" alt="mouse" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item" data-interval="1000">
+                        <img src="Assets/printer.jpg" alt="printer" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item" data-interval="1000">
+                        <img src="Assets/graphics_card.jpg" alt="graphics_card" class="d-block w-100">
+                      </div>
+                    </div>
+                    <a href="#mycarousel" class="carousel-control-prev" data-slide="prev" role="button">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+        
+        <!-- CATEGORY -->
+  
+        <br><br>
+        <h1>OUR PRODUCT</h1>
+        <div class="categories">
+          <div class="small-container">
+
+            <div class="row">
+              <div class="col-3">
+                <img src="Assets/laptop.png" alt="laptop" class="d-block w-100">
+              </div>
+              <div class="col-3">
+                <img src="Assets/keyboard.jpg" alt="keyboard" class="d-block w-100">
+              </div>
+              <div class="col-3">
+                <img src="Assets/mouse.jpg" alt="mouse" class="d-block w-100">
+              </div>
+              <div class="col-3">
+                <img src="Assets/graphics_card.jpg" alt="graphics_card" class="d-block w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Laptop', 'Keyboard','Mouse','Printer','Graphics Card'],
+        typeSpeed: 50,
+      });
+    </script>
+</body>
+</html>
